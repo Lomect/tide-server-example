@@ -1,0 +1,13 @@
+[database]
+mongo_url="mongodb://root:123456@127.0.0.1:27017"
+redis_url="redis://127.0.0.1:6379"
+mongo_name="test"
+
+[server]
+server="127.0.0.1:8090"
+domain="http:://127.0.0.1:8090"
+
+[email]
+email_name="lomect@example.com"
+email_password="123456"
+email_server="smtp.server.com"
